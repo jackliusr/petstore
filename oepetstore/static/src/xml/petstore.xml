@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <templates xml:space="preserve">
+    <div t-name="some.template">
+        <span class="val"><t t-esc="widget.homePage"/></span>
+        <button>Increment</button>
+    </div>
 </templates>

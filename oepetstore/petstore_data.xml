@@ -13,8 +13,8 @@
             <field name="standard_price">10.0</field>
             <field name="list_price">13.0</field>
             <field name="type">consu</field>
-            <field name="uom_id" ref="product.product_uom_unit"/>
-            <field name="uom_po_id" ref="product.product_uom_unit"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
             <field name="image" type="base64" file="oepetstore/images/mice.jpg"/>
         </record>
 
@@ -25,8 +25,8 @@
             <field name="standard_price">10.0</field>
             <field name="list_price">13.0</field>
             <field name="type">consu</field>
-            <field name="uom_id" ref="product.product_uom_unit"/>
-            <field name="uom_po_id" ref="product.product_uom_unit"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
             <field name="image" type="base64" file="oepetstore/images/alligator.jpg"/>
         </record>
 
@@ -36,8 +36,8 @@
             <field name="standard_price">10.0</field>
             <field name="list_price">13.0</field>
             <field name="type">consu</field>
-            <field name="uom_id" ref="product.product_uom_unit"/>
-            <field name="uom_po_id" ref="product.product_uom_unit"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
             <field name="image" type="base64" file="oepetstore/images/fish.jpg"/>
         </record>
 
@@ -47,8 +47,8 @@
             <field name="standard_price">10.0</field>
             <field name="list_price">13.0</field>
             <field name="type">consu</field>
-            <field name="uom_id" ref="product.product_uom_unit"/>
-            <field name="uom_po_id" ref="product.product_uom_unit"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
             <field name="image" type="base64" file="oepetstore/images/ball.jpg"/>
         </record>
 
@@ -58,8 +58,8 @@
             <field name="standard_price">10.0</field>
             <field name="list_price">13.0</field>
             <field name="type">consu</field>
-            <field name="uom_id" ref="product.product_uom_unit"/>
-            <field name="uom_po_id" ref="product.product_uom_unit"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
             <field name="image" type="base64" file="oepetstore/images/crazy_circle.jpg"/>
         </record>
 

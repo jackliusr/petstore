@@ -1,4 +1,4 @@
-from openerp import api, fields, models
+from odoo import api, fields, models
 
 class message_of_the_day(models.Model):
     _name = "oepetstore.message_of_the_day"
@@ -13,5 +13,5 @@ class message_of_the_day(models.Model):
 
 class product(models.Model):
     _inherit = "product.product"
-
+    image = fields.Image("Image")
     max_quantity = fields.Float(string="Maximum Quantity")
